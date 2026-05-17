@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ecf41914e6e304889acb1928ae7d52, type: 3}
+  m_Name: Character1
+  m_EditorClassIdentifier: 
+  characterName: Player1
+  characterSprite: {fileID: -6604456957145605671, guid: c94b497088b228f47a517afbe779bcbf, type: 3}
+  maxHP: 100
+  attack: 10
+  defense: 5
+  speed: 10
+  affinities:
+  - element: 0
+    reaction: 0
+  - element: 1
+    reaction: 2
+  - element: 2
+    reaction: 1
+  - element: 4
+    reaction: 3
+  - element: 5
+    reaction: 1
+  - element: 0
+    reaction: 0
+  skills:
+  - {fileID: 11400000, guid: 72ad68e6127d7a64bb0f30edc738339c, type: 2}
+  - {fileID: 11400000, guid: 58969c3eefacb7d4da603c304c9e4836, type: 2}
+  - {fileID: 11400000, guid: 00ff5e9262d7e5448a63043924931cd8, type: 2}
+  - {fileID: 11400000, guid: d3b73669783bafe49bfeb40fd9604cd8, type: 2}
